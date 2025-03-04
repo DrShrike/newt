@@ -1,6 +1,6 @@
 import type { TConfig } from '$lib/types/config.types';
 const config: TConfig = {
-  name: 'April',
+  name: 'Shrike',
   locale: 'en',
   midgap: 24, // Gap between buttons and the time/weather (in Tailwind size units)
   colors: {
@@ -17,14 +17,9 @@ const config: TConfig = {
     gap: 6, // Gap between buttons (in Tailwind size units)
     buttons: [
       {
-        name: 'Newt GitHub',
-        href: 'https://github.com/arithefirst/newt',
-        icon: 'github',
-      },
-      {
-        name: 'Amazon',
-        href: 'https://amazon.com',
-        icon: 'shopping-cart',
+        name: 'YouTube',
+        href: 'https://youtube.com',
+        icon: 'youtube',
       },
       {
         name: 'Gmail',
@@ -32,29 +27,24 @@ const config: TConfig = {
         icon: 'mail',
       },
       {
-        name: 'Google',
-        href: 'https://google.com',
+        name: 'DuckDuckGo',
+        href: 'https://duckduckgo.com/?t=ffab',
         icon: 'search',
       },
       {
-        name: 'Google Calendar',
-        href: 'https://calendar.google.com',
-        icon: 'calendar',
+        name: 'RemoteAccess',
+        href: 'https://remotedesktop.google.com/access',
+        icon: 'router',
       },
       {
-        name: 'Spotify',
-        href: 'https://open.spotify.com',
-        icon: 'music',
+        name: 'Rentry Dropout',
+        href: 'https://rentry.org/dropout_shares',
+        icon: 'graduation-cap',
       },
       {
-        name: 'Twitch',
-        href: 'https://twitch.tv',
-        icon: 'twitch',
-      },
-      {
-        name: 'YouTube',
-        href: 'https://youtube.com',
-        icon: 'youtube',
+        name: 'Lucida',
+        href: 'https://lucida.to/',
+        icon: 'disc-3',
       },
     ],
   },
@@ -93,10 +83,10 @@ const config: TConfig = {
   weather: {
     coordinates: {
       // Find yout coordinates at https://www.latlong.net
-      lat: '40.776676', // Your latitude
-      long: '-73.971321', // Your longitude
+      lat: '44.100349', // Your latitude
+      long: '-70.214775', // Your longitude
     },
-    units: 'metric', // metric = C°, imperial = F°, standard = K
+    units: 'imperial', // metric = C°, imperial = F°, standard = K
   },
 };
 
